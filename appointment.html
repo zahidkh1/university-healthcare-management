@@ -1,0 +1,247 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Appointment
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-50">
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto flex justify-between items-center py-4 px-6">
+    <div class="flex items-center">
+     <img alt="Logo" class="mr-2" height="40" src="Aayuonic-logo.png" width="40"/>
+     <span class="text-xl font-bold">
+      Aayuonic
+     </span>
+    </div>
+    <nav class="space-x-6">
+        <a class="text-gray-600 hover:text-blue-600" href="main.html">
+         Home
+        </a>
+        <a class="text-gray-600 hover:text-blue-600" href="doc.html">
+         Doctors
+        </a>
+        <a class="text-gray-600 hover:text-blue-600" href="health.html">
+        Reports and prescription
+        </a>
+        <a class="text-gray-600 hover:text-blue-600" href="histroy.html">
+         History
+        </a>
+        <a class="text-gray-600 hover:text-blue-600" href="contact.html">
+         Contact
+        </a>
+        <a class="text-gray-600 hover:text-blue-600" href="emegencies.html">
+          Emergencies
+         </a>
+       </nav>
+       <div class="flex space-x-4">
+        <img alt="User Avatar" class="w-10 h-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/BQMjJpjHvZRnFOaaoGiSheZjni8vLZzMliZMTvopb74.jpg" width="40"/>
+        <div>
+         <p class="font-semibold">
+          Your profile
+         </p>
+         <p class="text-sm text-gray-500">
+          <a class="text-gray-600 hover:text-blue-600" href="sub2.html">Subscriptions</a>
+         </p>
+        </div>
+       </div>
+       <button class="px-4 py-2 bg-blue-600 text-white rounded-lg">
+         <a class="text-gray-600 hover:text-blue-600"  href="login_page.html">Log In</a>
+       </button>
+    </div>
+   </div>
+  </header>
+  <!-- Main Content -->
+  <main class="container mx-auto mt-10 px-6">
+   <div class="text-center">
+    <h1 class="text-4xl font-bold">
+     Appointment
+    </h1>
+    <p class="text-gray-600 mt-2">
+     Home/Appointment
+    </p>
+   </div>
+   <div class="flex flex-col lg:flex-row items-center mt-10">
+    <div class="lg:w-1/2 flex justify-center">
+     <img alt="Doctor" class="rounded-full border-4 border-blue-600" height="400" src="https://storage.googleapis.com/a1aa/image/ijuwfgUjnkdLIjb9ddWKwiRryEhJNelymQpk08bzY7s.jpg" width="300"/>
+    </div>
+    <div class="lg:w-1/2 mt-10 lg:mt-0 lg:ml-10 bg-white p-8 rounded-lg shadow-lg">
+     <h2 class="text-2xl font-bold mb-6">
+      Book An Appointment
+     </h2>
+     <form>
+      <div class="mb-4">
+       <input class="w-full px-4 py-2 border rounded" placeholder="Your Name" type="text"/>
+      </div>
+      <div class="mb-4">
+       <input class="w-full px-4 py-2 border rounded" placeholder="Your Email" type="email"/>
+      </div>
+      <div class="mb-4">
+       <select class="w-full px-4 py-2 border rounded">
+        <option>
+         Choose Doctor
+        </option>
+       </select>
+      </div>
+      <div class="mb-4">
+       <input class="w-full px-4 py-2 border rounded" type="date"/>
+      </div>
+      <div class="mb-4">
+       <input class="w-full px-4 py-2 border rounded" type="time"/>
+      </div>
+      <div class="mb-4">
+       <textarea class="w-full px-4 py-2 border rounded" placeholder="Describe Your Problem"></textarea>
+      </div>
+      <button class="bg-blue-600 text-white px-6 py-2 rounded">
+       Book Appointment
+      </button>
+     </form>
+    </div>
+   </div>
+  </main>
+  <!-- Newsletter Section -->
+  <section class="bg-blue-600 text-white py-10 mt-20">
+   <div class="container mx-auto text-center">
+    <h2 class="text-2xl font-bold">
+     Join Our Newsletter
+    </h2>
+    <p class="mt-2">
+     Subscribe For Any News Update From Wecare
+    </p>
+    <div class="mt-6 flex justify-center">
+     <input class="px-4 py-2 rounded-l" placeholder="Email Address" type="email"/>
+     <button class="bg-white text-blue-600 px-4 py-2 rounded-r">
+      Subscribe
+     </button>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-10">
+   <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div>
+     <h3 class="text-xl font-bold">
+      Meditest
+     </h3>
+     <p class="mt-2">
+      Lorem ipsum is simply dummy text printing and typesetting industry. been industry
+     </p>
+    </div>
+    <div>
+     <h3 class="text-xl font-bold">
+      Support
+     </h3>
+     <ul class="mt-2 space-y-2">
+      <li>
+       <a class="hover:underline" href="#">
+        Teams
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Careers
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Security
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-xl font-bold">
+      Products
+     </h3>
+     <ul class="mt-2 space-y-2">
+      <li>
+       <a class="hover:underline" href="#">
+        Clinical Board
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Events
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Service
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-xl font-bold">
+      Security
+     </h3>
+     <ul class="mt-2 space-y-2">
+      <li>
+       <a class="hover:underline" href="#">
+        Privacy Policy
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Terms &amp; Conditions
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Reviews
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        FAQ
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-xl font-bold">
+      Contact Us
+     </h3>
+     <p class="mt-2">
+      Phone: +555 0107 95-75
+     </p>
+     <div class="flex space-x-4 mt-4">
+      <a class="text-white hover:text-blue-600" href="#">
+       <i class="fab fa-facebook-f">
+       </i>
+      </a>
+      <a class="text-white hover:text-blue-600" href="#">
+       <i class="fab fa-twitter">
+       </i>
+      </a>
+      <a class="text-white hover:text-blue-600" href="#">
+       <i class="fab fa-linkedin-in">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="text-center mt-10">
+    <p>
+     ©️ 2023 All Right Reserved by ShapeZone
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
