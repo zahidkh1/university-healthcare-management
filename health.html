@@ -1,0 +1,317 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Health Dashboard
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Inter', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-[#E6E8FC] text-gray-800">
+  <div class="max-w-screen-xl mx-auto p-4">
+   <!-- Header -->
+   <header class="flex justify-between items-center py-4">
+    <div class="flex items-center space-x-2">
+     <img alt="HealthPulse Logo" class="w-10 h-10" height="40" src="Aayuonic-logo.png" width="40"/>
+     <span class="text-xl font-bold">
+      Aayuonic
+     </span>
+    </div>
+    <nav class="space-x-6">
+        <a class="text-gray-600 hover:text-blue-600" href="main.html">
+         Home
+        </a>
+        <a class="text-gray-600 hover:text-blue-600" href="doc.html">
+         Doctors
+        </a>
+        <a class="text-gray-600 hover:text-blue-600" href="histroy.html">
+         History
+        </a>
+        <a class="text-gray-600 hover:text-blue-600" href="contact.html">
+         Contact
+        </a>
+        <a class="text-gray-600 hover:text-blue-600" href="emegencies.html">
+          Emergencies
+         </a>
+       </nav>
+       <div class="flex space-x-4">
+        <img alt="User Avatar" class="w-10 h-10 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/BQMjJpjHvZRnFOaaoGiSheZjni8vLZzMliZMTvopb74.jpg" width="40"/>
+        <div>
+         <p class="font-semibold">
+          Your profile
+         </p>
+         <p class="text-sm text-gray-500">
+          <a class="text-gray-600 hover:text-blue-600" href="sub2.html">Subscriptions</a>
+         </p>
+        </div>
+       </div>
+       <button class="px-4 py-2 bg-blue-600 text-white rounded-lg">
+         <a class="text-black-600 hover:text-white-600" href="login_page.html">Log In</a>
+       </button>
+   </header>
+   <!-- Main Content -->
+   <main class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <!-- Overview Section -->
+    <section class="lg:col-span-2 bg-white p-6 rounded-lg shadow">
+     <div class="flex justify-between items-center mb-6">
+      <h2 class="text-2xl font-bold">
+       Overview Of Your Health
+      </h2>
+      <div class="flex items-center space-x-2">
+       <button class="bg-gray-100 p-2 rounded-full">
+        <i class="fas fa-filter text-gray-600">
+        </i>
+       </button>
+       <button class="bg-purple-600 text-white p-2 rounded-full">
+        <i class="fas fa-cog">
+        </i>
+       </button>
+      </div>
+     </div>
+     <p class="text-gray-500 mb-6">
+      Hormonal Living Balance, Strength, Vitality, Wellness.
+     </p>
+     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+      <div class="bg-gray-100 p-4 rounded-lg text-center">
+       <p class="text-purple-600 font-semibold">
+        Muscle Recovery
+       </p>
+       <p class="text-2xl font-bold">
+        72%
+       </p>
+       <p class="text-gray-500">
+        100% + 53%
+       </p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-lg text-center">
+       <p class="text-purple-600 font-semibold">
+        Steps
+       </p>
+       <p class="text-2xl font-bold">
+        1,524
+       </p>
+       <p class="text-gray-500">
+        +50% This day
+       </p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-lg text-center">
+       <p class="text-purple-600 font-semibold">
+        Calory Burned
+       </p>
+       <p class="text-2xl font-bold">
+        129
+       </p>
+       <p class="text-gray-500">
+        +50% This day
+       </p>
+      </div>
+     </div>
+     <div class="mb-6">
+      <h3 class="text-xl font-semibold mb-4">
+       Checkup Schedule
+      </h3>
+      <div class="flex justify-between items-center mb-4">
+       <div class="flex space-x-2">
+        <button class="bg-gray-100 p-2 rounded-full">
+         14
+        </button>
+        <button class="bg-gray-100 p-2 rounded-full">
+         15
+        </button>
+        <button class="bg-gray-100 p-2 rounded-full">
+         16
+        </button>
+        <button class="bg-gray-100 p-2 rounded-full">
+         17
+        </button>
+        <button class="bg-gray-100 p-2 rounded-full">
+         18
+        </button>
+        <button class="bg-purple-600 text-white p-2 rounded-full">
+         19
+        </button>
+        <button class="bg-gray-100 p-2 rounded-full">
+         20
+        </button>
+        <button class="bg-gray-100 p-2 rounded-full">
+         21
+        </button>
+        <button class="bg-gray-100 p-2 rounded-full">
+         22
+        </button>
+        <button class="bg-gray-100 p-2 rounded-full">
+         23
+        </button>
+       </div>
+       <button class="text-purple-600">
+        Show More
+       </button>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+       <div class="bg-gray-100 p-4 rounded-lg flex items-center space-x-4">
+        <img alt="Doctor Image" class="w-16 h-16 rounded-full" height="60" src="https://storage.googleapis.com/a1aa/image/3r5u1UxddBdhT2LNNneJv92TiiP1arm5U56Y5_te1rc.jpg" width="60"/>
+        <div>
+         <p class="font-semibold">
+          Dental Checkup
+         </p>
+         <p class="text-gray-500">
+          By Suhani Shah
+         </p>
+         <p class="text-gray-500">
+          04:00 PM
+         </p>
+        </div>
+       </div>
+       <div class="bg-gray-100 p-4 rounded-lg flex items-center space-x-4">
+        <img alt="Doctor Image" class="w-16 h-16 rounded-full" height="60" src="https://storage.googleapis.com/a1aa/image/3r5u1UxddBdhT2LNNneJv92TiiP1arm5U56Y5_te1rc.jpg" width="60"/>
+        <div>
+         <p class="font-semibold">
+          Checkup Screening
+         </p>
+         <p class="text-gray-500">
+          By Camron Joseph
+         </p>
+         <p class="text-gray-500">
+          08:00 AM
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold mb-4">
+       Medical Checkup History
+      </h3>
+      <table class="w-full text-left">
+       <thead>
+        <tr class="text-gray-500">
+         <th class="pb-2">
+          Category
+         </th>
+         <th class="pb-2">
+          Date
+         </th>
+         <th class="pb-2">
+          Duration
+         </th>
+         <th class="pb-2">
+          Calory Burned
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr class="border-t">
+         <td class="py-2">
+          Running
+         </td>
+         <td class="py-2">
+          08 February, 2024
+         </td>
+         <td class="py-2">
+          30 Minutes
+         </td>
+         <td class="py-2">
+          100 Calory Burned
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          Cycling
+         </td>
+         <td class="py-2">
+          08 February, 2024
+         </td>
+         <td class="py-2">
+          60 Minutes
+         </td>
+         <td class="py-2">
+          150 Calory Burned
+         </td>
+        </tr>
+        <tr class="border-t">
+         <td class="py-2">
+          Yoga
+         </td>
+         <td class="py-2">
+          08 February, 2024
+         </td>
+         <td class="py-2">
+          120 Minutes
+         </td>
+         <td class="py-2">
+          200 Calory Burned
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </section>
+    <!-- Heart Statistics Section -->
+    <section class="bg-white p-6 rounded-lg shadow">
+     <h2 class="text-2xl font-bold mb-6">
+      Your Heart Statistic
+     </h2>
+     <div class="flex justify-center mb-6">
+      <img alt="Heart Image" class="w-40 h-40" height="200" src="heart.jpg" width="200"/>
+     </div>
+     <div class="grid grid-cols-3 text-center mb-6">
+      <div>
+       <p class="text-gray-500">
+        Average
+       </p>
+       <p class="text-2xl font-bold">
+        98
+       </p>
+       <p class="text-gray-500">
+        bpm
+       </p>
+      </div>
+      <div>
+       <p class="text-gray-500">
+        Minimum
+       </p>
+       <p class="text-2xl font-bold">
+        48
+       </p>
+       <p class="text-gray-500">
+        bpm
+       </p>
+      </div>
+      <div>
+       <p class="text-gray-500">
+        Maximum
+       </p>
+       <p class="text-2xl font-bold">
+        118
+       </p>
+       <p class="text-gray-500">
+        bpm
+       </p>
+      </div>
+     </div>
+     <div>
+      <h3 class="text-xl font-semibold mb-4">
+       Heart Rate
+      </h3>
+      <div class="flex justify-between items-center mb-2">
+       <p class="text-gray-500">
+        Real Time
+       </p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-lg">
+       <img alt="Heart Rate Graph" class="w-full" height="100" src="https://storage.googleapis.com/a1aa/image/zi_O0FqRZQbv9CbY9Qp8doXyKssDo7XIWhKFR9_6GQg.jpg" width="300"/>
+      </div>
+     </div>
+    </section>
+   </main>
+  </div>
+ </body>
+</html>
